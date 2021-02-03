@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Score Keeper</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .winner {
+            color: green;
+        }
+
+        .loser {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <img class="ping" src="ping.jpg">
+    <h3><b><em>Score keeper</em></b></h3>
+    <h1> <span id="p1">0</span> <span>to</span>  <span id="p2">0</span></h1><br>
+    <span>Use the button below to keep score</span><br>
+    <h2>Playing to :</h2>
+    <select name="" id="playto">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+    </select><br><br>
+    <div class="buttons">
+    <button id="one">Player One</button>
+    <button id="two">Player Two</button>
+    <button id="reset">Reset</button>
+    </div>
+    </div>
+    <script src="app.js"></script>
+    
+</body>
+</html>
