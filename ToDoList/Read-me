@@ -1,1 +1,6 @@
+This is a todo list. It helps users to keep track of their daily activities and chores. After finishing the activity, double click on it to scratch it out.
 
+Add button- After writing when we click on this button it displays the list and keeps on adding further items as and when the user requires.
+Clear list button-The activities crossed out in the list can be removed with this button.
+Empty list button-This button clears out the entire list.
+Save button- This button is used to save the items in the list.
